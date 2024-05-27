@@ -1,0 +1,34 @@
+--
+-- Table structure for table `patient_entries`
+--
+
+DROP TABLE IF EXISTS `patient_entries`;
+CREATE TABLE IF NOT EXISTS `patient_entries` (
+`patientn_fld` varchar(150) NOT NULL,
+`FirstName_fld` varchar(150) NOT NULL,
+`surname_fld` varchar(150) NOT NULL,
+`bday_fld` varchar(150) NOT NULL,
+`Address_fld` varchar(150) NOT NULL,
+`contactinfo_fld` varchar(150) NOT NULL,
+`nok_fld` varchar(150) NOT NULL,
+`bloodtype_fld` varchar(150) NOT NULL,
+`Patientnotes_fld` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `patient_entries`
+--
+ALTER TABLE `patient_entries`
+ADD PRIMARY KEY (`patientn_fld`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `patient_entries`
+--

@@ -1,0 +1,1 @@
+CREATE TABLE `form_db`.`appointment_entries` (`patientn` VARCHAR(150) NOT NULL , `patientt` VARCHAR(150) NOT NULL , `mcard` VARCHAR(150) NOT NULL , `rfa` VARCHAR(150) NOT NULL , `date` VARCHAR(150) NOT NULL , `time` VARCHAR(150) NOT NULL , PRIMARY KEY (`patientn`)) ENGINE = InnoDB;

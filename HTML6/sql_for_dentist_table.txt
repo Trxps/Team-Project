@@ -1,0 +1,2 @@
+CREATE TABLE `form_db`.`Dentist_entries` (`dentistnum` VARCHAR(150) NOT NULL , `dentistn` VARCHAR(150) NOT NULL , `YOE` VARCHAR(150) NOT NULL , `dentistp` VARCHAR(150) NOT NULL , `date` VARCHAR(150) NOT NULL , PRIMARY KEY (`dentistnum`)) ENGINE = InnoDB;
+

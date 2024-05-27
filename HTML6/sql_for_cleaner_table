@@ -1,0 +1,1 @@
+CREATE TABLE `form_db`.`Cleaner_entries` (`cleanernum` VARCHAR(150) NOT NULL , `cleanern` VARCHAR(150) NOT NULL , `YOE` VARCHAR(150) NOT NULL , `date` VARCHAR(150) NOT NULL , PRIMARY KEY (`cleanernum`)) ENGINE = InnoDB;

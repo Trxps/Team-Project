@@ -1,0 +1,4 @@
+CREATE TABLE `form_db`.`Treatments_entries` (`treatmentn` VARCHAR(150) NOT NULL , `treatmentt` VARCHAR(150) NOT NULL , `DOT` VARCHAR(150) NOT NULL , `COT` VARCHAR(150) NOT NULL , PRIMARY KEY (`treatmentn`)) ENGINE = InnoDB;
+
+
+CREATE TABLE `form_db`.`Login_entries` (`StaffNum` VARCHAR(150) NOT NULL , `Username` VARCHAR(150) NOT NULL , `Password` VARCHAR(150) NOT NULL, PRIMARY KEY (`StaffNum`)) ENGINE = InnoDB;

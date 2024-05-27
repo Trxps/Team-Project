@@ -1,0 +1,1 @@
+CREATE TABLE `form_db`.`payment_entries` ( `cardname` VARCHAR(150) NOT NULL,  `cardnumber` VARCHAR(150) NOT NULL, `cardexpirary` VARCHAR(150) NOT NULL , `CVV` VARCHAR(150) NOT NULL , `payment` VARCHAR(150) NOT NULL , PRIMARY KEY (`cardnumber`)) ENGINE = InnoDB;

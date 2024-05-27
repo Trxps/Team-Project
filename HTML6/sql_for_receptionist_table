@@ -1,0 +1,1 @@
+CREATE TABLE `form_db`.`Receptionist_entries` (`receptionistnum` VARCHAR(150) NOT NULL , `receptionistn` VARCHAR(150) NOT NULL , `YOE` VARCHAR(150) NOT NULL , `date` VARCHAR(150) NOT NULL , PRIMARY KEY (`receptionistnum`)) ENGINE = InnoDB;
